@@ -27,6 +27,27 @@ body,html{
     
 
 }
+
+.bottons img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
+    
+}
+.bottons{
+    
+    display: none;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.bottons img:hover{
+    border: 2px solid white;
+    transform: translate(-3px -3px);
+    transition: transform .1s, border .1s;
+}
+
 nav > a{
     
     text-decoration: none;
