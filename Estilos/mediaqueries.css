@@ -1,0 +1,130 @@
+@charset "utf-8";
+@media screen and (min-width:768px) and (max-width:992px)  {
+    
+    body{
+        background-color: rgb(144, 3, 163);
+        background-image: url(../imagens/backtab.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section#login{
+        width: 70vw;
+        height: 70vh;
+    }
+    nav{
+        background-image: linear-gradient(to bottom, rgb(3, 56, 25),rgb(92, 164, 122),  transparent);
+        width: 100vw;
+        display: block;
+        padding-left: 90px;
+        font-size: 1.5em;
+        text-align: center;
+        
+        
+    
+    }
+    section#login > #imagem{
+        background-color: blueviolet;
+        background-image: url(../imagens/backmob-.png);
+        background-position: center center;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+
+    }
+    #imagem > img{
+        
+        display: none;
+         
+        
+    }
+    section#login > div#corpo{
+        display: block;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: 25em;
+        height: 60vh;
+        padding: 20px;
+        float: right;
+        width: 70%;
+    }
+    div#corpo > p{
+        font-size: 1.0em;
+        text-align: justify;
+    }
+    div.campo > input{
+        width: 90%;
+        height: 100%;
+        transform: translateY(-116%);
+        
+        
+    }
+}
+@media screen and (min-width:992px) {
+    body{
+        background-color: rgb(144, 3, 163);
+        background-image: url(../imagens/backhtml.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section#login{
+        width: 90vw;
+        height: 90vh;
+        
+    }
+    section#login > #imagem{
+        background-image: url(../imagens/backmob-.png);
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+
+    }
+    section#login > div#corpo{
+        float: right;
+        width: 50%;
+        display: block;
+        overflow: hidden;
+        overflow-y: scroll;
+        width: 40vw;
+        height: 80vh;
+        margin: 30px;
+        
+    }
+    #imagem > img{
+        
+        display: none;
+         
+        
+    }
+    nav{
+        
+        background-image: linear-gradient(to bottom, rgb(3, 56, 25),rgb(92, 164, 122),  transparent);
+        width: 100vw;
+        display: block;
+        padding-left: 90px;
+        font-size: 1.5em;
+        text-align: center;
+        
+        
+    
+    }
+    div#corpo > h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#corpo > p{
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    
+    div.campo > input{
+        width: 90%;
+        height: 100%;
+        transform: translateY(-2%);
+        
+        
+    }
+} 
+
