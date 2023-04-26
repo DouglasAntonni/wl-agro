@@ -22,6 +22,7 @@
         
     
     }
+  
     .home{
         padding-inline: 60px;
       }
@@ -34,7 +35,25 @@
         height: 100%;
 
     }
-
+    .bottons img{
+        width: 40px;
+        margin:10px;
+        border-radius: 500px;
+        box-shadow: 5px 5px 10px rgb(10, 10, 10);
+        
+    }
+    .bottons{
+        
+        display: inline-block;
+        text-align: right;
+        box-sizing: border-box;
+    }
+    
+    .bottons img:hover{
+        border: 2px solid white;
+        transform: translate(-3px -3px);
+        transition: transform .1s, border .1s;
+    }
     #imagem > img{
         
         display: none;
@@ -51,7 +70,11 @@
         float: right;
         width: 70%;
     }
-    div#corpo > p{
+    section#login > div#corpo > p{
+        font-size: 1.0em;
+        text-align: justify;
+    }
+    section#login > #corpo > p{
         font-size: 1.0em;
         text-align: justify;
     }
@@ -118,6 +141,25 @@
         
         
     
+    }
+    .bottons img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 500px;
+        box-shadow: 5px 5px 10px rgb(10, 10, 10);
+        
+    }
+    .bottons{
+        
+        display: inline-block;
+        text-align: right;
+        box-sizing: border-box;
+    }
+    
+    .bottons img:hover{
+        border: 2px solid white;
+        transform: translate(-3px -3px);
+        transition: transform .1s, border .1s;
     }
     div#corpo > h2{
         text-align: center;
