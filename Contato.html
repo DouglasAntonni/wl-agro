@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Estilos/style.css">
     <link rel="stylesheet" href="./Estilos/mediaqueries.css">
+    <link rel="stylesheet" href="./Estilos/navbar.css">
     <link rel="shortcut icon" href="./imagens/ico.png" type="image/x-icon">
+    
     <title>WL Agro</title>
 </head>
 <body>
@@ -18,14 +20,20 @@
     <main>
           <section id="login">
           <div id="imagem">
-            <img src="./imagens/headeere.png" alt="logo da WL Agro">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="produtos.html">Produtos</a>
-                <a href="contatos.html">Contatos</a>
-                <a href="sobre.html">Sobre Nós</a>
-                    
+            
+            <nav id="nav">
+              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+              </button>
+              <ul id="menu" role="menu" class="home">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+              </ul>
             </nav>
+            <img src="./imagens/headeere.png" alt="logo da WL Agro">
+          
           </div>
           <div id="corpo">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque reiciendis vero, quaerat minima laudantium vitae suscipit eveniet quasi non. Dolorum illum quae debitis rerum porro voluptas explicabo eos accusantium esse?
@@ -39,6 +47,6 @@
           </div>
         </section>
     </main>
-        
+        <script src="./navbar.js"></script>
 </body>
 </html>

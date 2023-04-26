@@ -16,13 +16,15 @@
         background-image: linear-gradient(to bottom, rgb(3, 56, 25),rgb(92, 164, 122),  transparent);
         width: 100vw;
         display: block;
-        padding-left: 90px;
         font-size: 1.5em;
         text-align: center;
         
         
     
     }
+    .home{
+        padding-inline: 60px;
+      }
     section#login > #imagem{
         background-color: blueviolet;
         background-image: url(../imagens/backmob-.png);
@@ -32,6 +34,7 @@
         height: 100%;
 
     }
+
     #imagem > img{
         
         display: none;
@@ -67,6 +70,7 @@
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+    
     }
     section#login{
         width: 90vw;
@@ -75,7 +79,9 @@
     }
     section#login > #imagem{
         background-image: url(../imagens/backmob-.png);
+        background-position: center top;
         background-size: cover;
+        
         float: left;
         width: 50%;
         height: 100%;
@@ -98,6 +104,9 @@
          
         
     }
+    .home{
+        padding-inline: 24%;
+      }
     nav{
         
         background-image: linear-gradient(to bottom, rgb(3, 56, 25),rgb(92, 164, 122),  transparent);
